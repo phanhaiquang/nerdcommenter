@@ -2746,7 +2746,7 @@ function! s:CreateMaps(modes, target, desc, combo)
         endif
     endfor
 endfunction
-call s:CreateMaps('nx', 'Comment',    'Comment', 'cc')
+call s:CreateMaps('nx', 'Comment',    'Comment', 'cl')
 call s:CreateMaps('nx', 'Toggle',     'Toggle', 'c<space>')
 call s:CreateMaps('nx', 'Minimal',    'Minimal', 'cm')
 call s:CreateMaps('nx', 'Nested',     'Nested', 'cn')
@@ -2756,7 +2756,7 @@ call s:CreateMaps('nx', 'Sexy',       'Sexy', 'cs')
 call s:CreateMaps('nx', 'Yank',       'Yank then comment', 'cy')
 call s:CreateMaps('n',  'Append',     'Append', 'cA')
 call s:CreateMaps('',   ':',          '-Sep-', '')
-call s:CreateMaps('nx', 'AlignLeft',  'Left aligned', 'cl')
+call s:CreateMaps('nx', 'AlignLeft',  'Left aligned', 'cc')
 call s:CreateMaps('nx', 'AlignBoth',  'Left and right aligned', 'cb')
 call s:CreateMaps('',   ':',          '-Sep2-', '')
 call s:CreateMaps('nx', 'Uncomment',  'Uncomment', 'cu')
